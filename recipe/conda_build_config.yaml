@@ -1,0 +1,8 @@
+# CI ISSUE:
+# Could not solve for environment specs
+# The following packages are incompatible
+# ├─ clang_osx-arm64 =17 * is requested and can be installed;
+# └─ rust_osx-arm64 =1.87.0 * is not installable because it requires
+#    └─ clang_osx-arm64 =14 *, which conflicts with any installable versions previously reported.
+c_compiler_version:  # [osx]
+  - 14               # [osx]
