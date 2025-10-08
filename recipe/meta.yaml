@@ -47,12 +47,6 @@ about:
   license_file:
     - LICENSE-MIT
     - LICENSE-APACHE
-    - crates/uv-pep440/License-Apache
-    - crates/uv-pep440/License-BSD
-    - crates/uv-build/LICENSE-MIT
-    - crates/uv-build/LICENSE-APACHE
-    - crates/uv-pep508/License-Apache
-    - crates/uv-pep508/License-BSD
     - THIRDPARTY.yml
   dev_url: https://github.com/astral-sh/uv
   doc_url: https://docs.astral.sh/uv
