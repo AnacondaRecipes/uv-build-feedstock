@@ -26,6 +26,8 @@ requirements:
     - python
     - pip
     - maturin >=1.0,<2.0
+    # bin/uv-build: Needed DSO lib/liblzma.so.5
+    - xz {{ xz }}
   run:
     - python
 
