@@ -1,16 +1,16 @@
 {% set name = "uv-build" %}
-{% set version = "0.13.4" %}
+{% set version = "0.11.28" %}
 
 package:
-  name: {{ name }}
+  name: {{ name|lower }}
   version: {{ version }}
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name|replace('-', '_') }}-{{ version }}.tar.gz
-  sha256: 93399c547230b849cf725775b0c1c990927c02ddea503e7504736c84c54be9d8
+  sha256: daba66fd25a9a82caa23949686e967cbb69fd056177e991650643186057adaef
 
 build:
-  number: 0
+  number: 1
   skip: true  # [py<38]
   script:
     # larger updated load commands do not fit … use -headerpad or -headerpad_max_install_names
