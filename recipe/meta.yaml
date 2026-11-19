@@ -10,7 +10,7 @@ source:
   sha256: daba66fd25a9a82caa23949686e967cbb69fd056177e991650643186057adaef
 
 build:
-  number: 0
+  number: 1
   skip: true  # [py<38]
   script:
     # larger updated load commands do not fit … use -headerpad or -headerpad_max_install_names
